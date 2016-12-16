@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33915EA1E00EA1D00166795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33915E91E00EA1D00166795 /* AppDelegate.m */; };
+		A33915ED1E00EA1D00166795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33915EC1E00EA1D00166795 /* main.m */; };
+		A33915F01E00EA1D00166795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33915EF1E00EA1D00166795 /* ViewController.m */; };
+		A33915F21E00EA1D00166795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33915F11E00EA1D00166795 /* Assets.xcassets */; };
+		A33915F51E00EA1D00166795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33915F31E00EA1D00166795 /* Main.storyboard */; };
+		A33916091E00EB8E00166795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916081E00EB8E00166795 /* main.m */; };
+		A339160E1E00EB8E00166795 /* Service.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = A33916021E00EB8E00166795 /* Service.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A33916141E00EC2F00166795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33916131E00EC2F00166795 /* Foundation.framework */; };
+		A33916AE1E00F6A300166795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33916911E00F6A300166795 /* InfoPlist.strings */; };
+		A33916AF1E00F6A300166795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33916911E00F6A300166795 /* InfoPlist.strings */; };
+		A33916B01E00F6A300166795 /* NSArray+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916941E00F6A300166795 /* NSArray+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916B11E00F6A300166795 /* NSArray+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916941E00F6A300166795 /* NSArray+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916B21E00F6A300166795 /* NSData+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916961E00F6A300166795 /* NSData+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916B31E00F6A300166795 /* NSData+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916961E00F6A300166795 /* NSData+XPCParse.m */; };
+		A33916B41E00F6A300166795 /* NSDate+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916981E00F6A300166795 /* NSDate+XPCParse.m */; };
+		A33916B51E00F6A300166795 /* NSDate+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916981E00F6A300166795 /* NSDate+XPCParse.m */; };
+		A33916B61E00F6A300166795 /* NSDictionary+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A339169A1E00F6A300166795 /* NSDictionary+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916B71E00F6A300166795 /* NSDictionary+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A339169A1E00F6A300166795 /* NSDictionary+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916B81E00F6A300166795 /* NSFileHandle+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A339169C1E00F6A300166795 /* NSFileHandle+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916B91E00F6A300166795 /* NSFileHandle+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A339169C1E00F6A300166795 /* NSFileHandle+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916BA1E00F6A300166795 /* NSNumber+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A339169E1E00F6A300166795 /* NSNumber+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916BB1E00F6A300166795 /* NSNumber+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A339169E1E00F6A300166795 /* NSNumber+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916BC1E00F6A300166795 /* NSObject+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916A01E00F6A300166795 /* NSObject+XPCParse.m */; };
+		A33916BD1E00F6A300166795 /* NSObject+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916A01E00F6A300166795 /* NSObject+XPCParse.m */; };
+		A33916BE1E00F6A300166795 /* NSString+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916A21E00F6A300166795 /* NSString+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916BF1E00F6A300166795 /* NSString+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916A21E00F6A300166795 /* NSString+XPCParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916C01E00F6A300166795 /* XPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916A41E00F6A300166795 /* XPCConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916C11E00F6A300166795 /* XPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916A41E00F6A300166795 /* XPCConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916C21E00F6A300166795 /* XPCKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A33916A61E00F6A300166795 /* XPCKit-Info.plist */; };
+		A33916C31E00F6A300166795 /* XPCKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A33916A61E00F6A300166795 /* XPCKit-Info.plist */; };
+		A33916C41E00F6A300166795 /* XPCService.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916AA1E00F6A300166795 /* XPCService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916C51E00F6A300166795 /* XPCService.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916AA1E00F6A300166795 /* XPCService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916C61E00F6A300166795 /* XPCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916AD1E00F6A300166795 /* XPCUUID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A33916C71E00F6A300166795 /* XPCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = A33916AD1E00F6A300166795 /* XPCUUID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3CE0F801E038CE000F80348 /* TestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE0F7F1E038CE000F80348 /* TestTwo.m */; };
+		A3CE0F831E0391CB00F80348 /* XPCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE0F821E0391CB00F80348 /* XPCClient.m */; };
+		A3CE0F861E0391E000F80348 /* XPCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE0F851E0391E000F80348 /* XPCServer.m */; };
+		A3CE0F891E0394A000F80348 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE0F881E0394A000F80348 /* Person.m */; };
+		A3CE0F8D1E03C83A00F80348 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE0F8C1E03C83A00F80348 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A339160B1E00EB8E00166795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33915DD1E00EA1D00166795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33916011E00EB8E00166795;
+			remoteInfo = Service;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A339160D1E00EB8E00166795 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				A339160E1E00EB8E00166795 /* Service.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A33915E51E00EA1D00166795 /* XPCKitLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPCKitLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33915E81E00EA1D00166795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A33915E91E00EA1D00166795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A33915EC1E00EA1D00166795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A33915EE1E00EA1D00166795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A33915EF1E00EA1D00166795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A33915F11E00EA1D00166795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A33915F41E00EA1D00166795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A33915F61E00EA1D00166795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33916021E00EB8E00166795 /* Service.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = Service.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33916081E00EB8E00166795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A339160A1E00EB8E00166795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33916131E00EC2F00166795 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A33916921E00F6A300166795 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A33916931E00F6A300166795 /* NSArray+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XPCParse.h"; sourceTree = "<group>"; };
+		A33916941E00F6A300166795 /* NSArray+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XPCParse.m"; sourceTree = "<group>"; };
+		A33916951E00F6A300166795 /* NSData+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XPCParse.h"; sourceTree = "<group>"; };
+		A33916961E00F6A300166795 /* NSData+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XPCParse.m"; sourceTree = "<group>"; };
+		A33916971E00F6A300166795 /* NSDate+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XPCParse.h"; sourceTree = "<group>"; };
+		A33916981E00F6A300166795 /* NSDate+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XPCParse.m"; sourceTree = "<group>"; };
+		A33916991E00F6A300166795 /* NSDictionary+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XPCParse.h"; sourceTree = "<group>"; };
+		A339169A1E00F6A300166795 /* NSDictionary+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XPCParse.m"; sourceTree = "<group>"; };
+		A339169B1E00F6A300166795 /* NSFileHandle+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle+XPCParse.h"; sourceTree = "<group>"; };
+		A339169C1E00F6A300166795 /* NSFileHandle+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+XPCParse.m"; sourceTree = "<group>"; };
+		A339169D1E00F6A300166795 /* NSNumber+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+XPCParse.h"; sourceTree = "<group>"; };
+		A339169E1E00F6A300166795 /* NSNumber+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+XPCParse.m"; sourceTree = "<group>"; };
+		A339169F1E00F6A300166795 /* NSObject+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XPCParse.h"; sourceTree = "<group>"; };
+		A33916A01E00F6A300166795 /* NSObject+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XPCParse.m"; sourceTree = "<group>"; };
+		A33916A11E00F6A300166795 /* NSString+XPCParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XPCParse.h"; sourceTree = "<group>"; };
+		A33916A21E00F6A300166795 /* NSString+XPCParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XPCParse.m"; sourceTree = "<group>"; };
+		A33916A31E00F6A300166795 /* XPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCConnection.h; sourceTree = "<group>"; };
+		A33916A41E00F6A300166795 /* XPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCConnection.m; sourceTree = "<group>"; };
+		A33916A51E00F6A300166795 /* XPCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCExtensions.h; sourceTree = "<group>"; };
+		A33916A61E00F6A300166795 /* XPCKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XPCKit-Info.plist"; sourceTree = "<group>"; };
+		A33916A71E00F6A300166795 /* XPCKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XPCKit-Prefix.pch"; sourceTree = "<group>"; };
+		A33916A81E00F6A300166795 /* XPCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCKit.h; sourceTree = "<group>"; };
+		A33916A91E00F6A300166795 /* XPCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCService.h; sourceTree = "<group>"; };
+		A33916AA1E00F6A300166795 /* XPCService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCService.m; sourceTree = "<group>"; };
+		A33916AB1E00F6A300166795 /* XPCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCTypes.h; sourceTree = "<group>"; };
+		A33916AC1E00F6A300166795 /* XPCUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCUUID.h; sourceTree = "<group>"; };
+		A33916AD1E00F6A300166795 /* XPCUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCUUID.m; sourceTree = "<group>"; };
+		A3CE0F7E1E038CE000F80348 /* TestTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwo.h; sourceTree = "<group>"; };
+		A3CE0F7F1E038CE000F80348 /* TestTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwo.m; sourceTree = "<group>"; };
+		A3CE0F811E0391CB00F80348 /* XPCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCClient.h; sourceTree = "<group>"; };
+		A3CE0F821E0391CB00F80348 /* XPCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCClient.m; sourceTree = "<group>"; };
+		A3CE0F841E0391E000F80348 /* XPCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCServer.h; sourceTree = "<group>"; };
+		A3CE0F851E0391E000F80348 /* XPCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCServer.m; sourceTree = "<group>"; };
+		A3CE0F871E0394A000F80348 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A3CE0F881E0394A000F80348 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A3CE0F8B1E03C83A00F80348 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A3CE0F8C1E03C83A00F80348 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A33915E21E00EA1D00166795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33915FF1E00EB8E00166795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33916141E00EC2F00166795 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A33915DC1E00EA1D00166795 = {
+			isa = PBXGroup;
+			children = (
+				A33916901E00F6A300166795 /* XPCKit */,
+				A33915E71E00EA1D00166795 /* XPCKitLearning */,
+				A33916031E00EB8E00166795 /* Service */,
+				A33915E61E00EA1D00166795 /* Products */,
+				A33916121E00EC2F00166795 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A33915E61E00EA1D00166795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33915E51E00EA1D00166795 /* XPCKitLearning.app */,
+				A33916021E00EB8E00166795 /* Service.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A33915E71E00EA1D00166795 /* XPCKitLearning */ = {
+			isa = PBXGroup;
+			children = (
+				A33915E81E00EA1D00166795 /* AppDelegate.h */,
+				A33915E91E00EA1D00166795 /* AppDelegate.m */,
+				A33915EE1E00EA1D00166795 /* ViewController.h */,
+				A33915EF1E00EA1D00166795 /* ViewController.m */,
+				A3CE0F811E0391CB00F80348 /* XPCClient.h */,
+				A3CE0F821E0391CB00F80348 /* XPCClient.m */,
+				A33915F11E00EA1D00166795 /* Assets.xcassets */,
+				A33915F31E00EA1D00166795 /* Main.storyboard */,
+				A33915F61E00EA1D00166795 /* Info.plist */,
+				A33915EB1E00EA1D00166795 /* Supporting Files */,
+			);
+			path = XPCKitLearning;
+			sourceTree = "<group>";
+		};
+		A33915EB1E00EA1D00166795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33915EC1E00EA1D00166795 /* main.m */,
+				A3CE0F871E0394A000F80348 /* Person.h */,
+				A3CE0F881E0394A000F80348 /* Person.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A33916031E00EB8E00166795 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A3CE0F7E1E038CE000F80348 /* TestTwo.h */,
+				A3CE0F7F1E038CE000F80348 /* TestTwo.m */,
+				A3CE0F8B1E03C83A00F80348 /* Person.h */,
+				A3CE0F8C1E03C83A00F80348 /* Person.m */,
+				A33916081E00EB8E00166795 /* main.m */,
+				A339160A1E00EB8E00166795 /* Info.plist */,
+				A3CE0F841E0391E000F80348 /* XPCServer.h */,
+				A3CE0F851E0391E000F80348 /* XPCServer.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A33916121E00EC2F00166795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A33916131E00EC2F00166795 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33916901E00F6A300166795 /* XPCKit */ = {
+			isa = PBXGroup;
+			children = (
+				A33916911E00F6A300166795 /* InfoPlist.strings */,
+				A33916931E00F6A300166795 /* NSArray+XPCParse.h */,
+				A33916941E00F6A300166795 /* NSArray+XPCParse.m */,
+				A33916951E00F6A300166795 /* NSData+XPCParse.h */,
+				A33916961E00F6A300166795 /* NSData+XPCParse.m */,
+				A33916971E00F6A300166795 /* NSDate+XPCParse.h */,
+				A33916981E00F6A300166795 /* NSDate+XPCParse.m */,
+				A33916991E00F6A300166795 /* NSDictionary+XPCParse.h */,
+				A339169A1E00F6A300166795 /* NSDictionary+XPCParse.m */,
+				A339169B1E00F6A300166795 /* NSFileHandle+XPCParse.h */,
+				A339169C1E00F6A300166795 /* NSFileHandle+XPCParse.m */,
+				A339169D1E00F6A300166795 /* NSNumber+XPCParse.h */,
+				A339169E1E00F6A300166795 /* NSNumber+XPCParse.m */,
+				A339169F1E00F6A300166795 /* NSObject+XPCParse.h */,
+				A33916A01E00F6A300166795 /* NSObject+XPCParse.m */,
+				A33916A11E00F6A300166795 /* NSString+XPCParse.h */,
+				A33916A21E00F6A300166795 /* NSString+XPCParse.m */,
+				A33916A31E00F6A300166795 /* XPCConnection.h */,
+				A33916A41E00F6A300166795 /* XPCConnection.m */,
+				A33916A51E00F6A300166795 /* XPCExtensions.h */,
+				A33916A61E00F6A300166795 /* XPCKit-Info.plist */,
+				A33916A71E00F6A300166795 /* XPCKit-Prefix.pch */,
+				A33916A81E00F6A300166795 /* XPCKit.h */,
+				A33916A91E00F6A300166795 /* XPCService.h */,
+				A33916AA1E00F6A300166795 /* XPCService.m */,
+				A33916AB1E00F6A300166795 /* XPCTypes.h */,
+				A33916AC1E00F6A300166795 /* XPCUUID.h */,
+				A33916AD1E00F6A300166795 /* XPCUUID.m */,
+			);
+			path = XPCKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A33915E41E00EA1D00166795 /* XPCKitLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33915F91E00EA1D00166795 /* Build configuration list for PBXNativeTarget "XPCKitLearning" */;
+			buildPhases = (
+				A33915E11E00EA1D00166795 /* Sources */,
+				A33915E21E00EA1D00166795 /* Frameworks */,
+				A33915E31E00EA1D00166795 /* Resources */,
+				A339160D1E00EB8E00166795 /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A339160C1E00EB8E00166795 /* PBXTargetDependency */,
+			);
+			name = XPCKitLearning;
+			productName = XPCKitLearning;
+			productReference = A33915E51E00EA1D00166795 /* XPCKitLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A33916011E00EB8E00166795 /* Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A339160F1E00EB8E00166795 /* Build configuration list for PBXNativeTarget "Service" */;
+			buildPhases = (
+				A33915FE1E00EB8E00166795 /* Sources */,
+				A33915FF1E00EB8E00166795 /* Frameworks */,
+				A33916001E00EB8E00166795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service;
+			productName = Service;
+			productReference = A33916021E00EB8E00166795 /* Service.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A33915DD1E00EA1D00166795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = sunny;
+				TargetAttributes = {
+					A33915E41E00EA1D00166795 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A33916011E00EB8E00166795 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A33915E01E00EA1D00166795 /* Build configuration list for PBXProject "XPCKitLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A33915DC1E00EA1D00166795;
+			productRefGroup = A33915E61E00EA1D00166795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33915E41E00EA1D00166795 /* XPCKitLearning */,
+				A33916011E00EB8E00166795 /* Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A33915E31E00EA1D00166795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33915F21E00EA1D00166795 /* Assets.xcassets in Resources */,
+				A33916AE1E00F6A300166795 /* InfoPlist.strings in Resources */,
+				A33915F51E00EA1D00166795 /* Main.storyboard in Resources */,
+				A33916C21E00F6A300166795 /* XPCKit-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33916001E00EB8E00166795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33916AF1E00F6A300166795 /* InfoPlist.strings in Resources */,
+				A33916C31E00F6A300166795 /* XPCKit-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33915E11E00EA1D00166795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33916B81E00F6A300166795 /* NSFileHandle+XPCParse.m in Sources */,
+				A33916C01E00F6A300166795 /* XPCConnection.m in Sources */,
+				A33916BC1E00F6A300166795 /* NSObject+XPCParse.m in Sources */,
+				A33916B41E00F6A300166795 /* NSDate+XPCParse.m in Sources */,
+				A33916C61E00F6A300166795 /* XPCUUID.m in Sources */,
+				A33915F01E00EA1D00166795 /* ViewController.m in Sources */,
+				A33916BE1E00F6A300166795 /* NSString+XPCParse.m in Sources */,
+				A33915ED1E00EA1D00166795 /* main.m in Sources */,
+				A33916B21E00F6A300166795 /* NSData+XPCParse.m in Sources */,
+				A33916C41E00F6A300166795 /* XPCService.m in Sources */,
+				A3CE0F891E0394A000F80348 /* Person.m in Sources */,
+				A33916B01E00F6A300166795 /* NSArray+XPCParse.m in Sources */,
+				A33916BA1E00F6A300166795 /* NSNumber+XPCParse.m in Sources */,
+				A33916B61E00F6A300166795 /* NSDictionary+XPCParse.m in Sources */,
+				A33915EA1E00EA1D00166795 /* AppDelegate.m in Sources */,
+				A3CE0F831E0391CB00F80348 /* XPCClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33915FE1E00EB8E00166795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CE0F861E0391E000F80348 /* XPCServer.m in Sources */,
+				A33916B71E00F6A300166795 /* NSDictionary+XPCParse.m in Sources */,
+				A33916BB1E00F6A300166795 /* NSNumber+XPCParse.m in Sources */,
+				A33916B51E00F6A300166795 /* NSDate+XPCParse.m in Sources */,
+				A33916B31E00F6A300166795 /* NSData+XPCParse.m in Sources */,
+				A33916B91E00F6A300166795 /* NSFileHandle+XPCParse.m in Sources */,
+				A33916BD1E00F6A300166795 /* NSObject+XPCParse.m in Sources */,
+				A33916B11E00F6A300166795 /* NSArray+XPCParse.m in Sources */,
+				A33916C51E00F6A300166795 /* XPCService.m in Sources */,
+				A3CE0F8D1E03C83A00F80348 /* Person.m in Sources */,
+				A33916BF1E00F6A300166795 /* NSString+XPCParse.m in Sources */,
+				A3CE0F801E038CE000F80348 /* TestTwo.m in Sources */,
+				A33916C11E00F6A300166795 /* XPCConnection.m in Sources */,
+				A33916C71E00F6A300166795 /* XPCUUID.m in Sources */,
+				A33916091E00EB8E00166795 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A339160C1E00EB8E00166795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33916011E00EB8E00166795 /* Service */;
+			targetProxy = A339160B1E00EB8E00166795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A33915F31E00EA1D00166795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33915F41E00EA1D00166795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A33916911E00F6A300166795 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33916921E00F6A300166795 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A33915F71E00EA1D00166795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A33915F81E00EA1D00166795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A33915FA1E00EA1D00166795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPCKitLearning",
+				);
+				INFOPLIST_FILE = XPCKitLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.XPCKitLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A33915FB1E00EA1D00166795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPCKitLearning",
+				);
+				INFOPLIST_FILE = XPCKitLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.XPCKitLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A33916101E00EB8E00166795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Service",
+					"$(PROJECT_DIR)/XPCKitLearning",
+				);
+				INFOPLIST_FILE = Service/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Service",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.Service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A33916111E00EB8E00166795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Service",
+					"$(PROJECT_DIR)/XPCKitLearning",
+				);
+				INFOPLIST_FILE = Service/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Service",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.Service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A33915E01E00EA1D00166795 /* Build configuration list for PBXProject "XPCKitLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33915F71E00EA1D00166795 /* Debug */,
+				A33915F81E00EA1D00166795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33915F91E00EA1D00166795 /* Build configuration list for PBXNativeTarget "XPCKitLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33915FA1E00EA1D00166795 /* Debug */,
+				A33915FB1E00EA1D00166795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A339160F1E00EB8E00166795 /* Build configuration list for PBXNativeTarget "Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33916101E00EB8E00166795 /* Debug */,
+				A33916111E00EB8E00166795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A33915DD1E00EA1D00166795 /* Project object */;
+}
